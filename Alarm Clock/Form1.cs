@@ -1,6 +1,7 @@
 ﻿using NAudio.Wave;
 using System;
 using System.IO;
+using System.Security.Permissions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WMPLib;
@@ -25,7 +26,7 @@ namespace Alarm_Clock
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Test");
+
             timerNow.Start();
             localPath = Environment.CurrentDirectory;
             soundDirectory = Environment.CurrentDirectory + @"\Sounds";
@@ -62,6 +63,7 @@ namespace Alarm_Clock
             cmbHour.SelectedIndex = 0;
             cmbSounds.SelectedIndex = (haveSound) ? 0 : -1;
             flag = true;
+
         }
 
         private void btnStart_Click(object sender, EventArgs e)
