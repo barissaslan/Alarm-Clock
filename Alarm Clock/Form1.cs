@@ -25,7 +25,7 @@ namespace Alarm_Clock
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Test");
             timerNow.Start();
             localPath = Environment.CurrentDirectory;
             soundDirectory = Environment.CurrentDirectory + @"\Sounds";
