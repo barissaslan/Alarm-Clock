@@ -159,7 +159,7 @@
             // 
             this.lblRemainingTime.AutoSize = true;
             this.lblRemainingTime.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblRemainingTime.Location = new System.Drawing.Point(12, 192);
+            this.lblRemainingTime.Location = new System.Drawing.Point(22, 192);
             this.lblRemainingTime.Name = "lblRemainingTime";
             this.lblRemainingTime.Size = new System.Drawing.Size(0, 13);
             this.lblRemainingTime.TabIndex = 1;
