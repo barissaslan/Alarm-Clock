@@ -25,6 +25,17 @@ namespace Alarm_Clock
         // flag: for dont play sound on form_load 
         // if alarMode = false then counter mode on 
 
+        public int AlarmDuration
+        {
+            get { return Properties.Settings.Default.AlarmDuration; }
+            set
+            {
+                Properties.Settings.Default.AlarmDuration = value;
+                Properties.Settings.Default.Save();
+            }
+        }
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             timerNow.Start();
@@ -78,8 +89,16 @@ namespace Alarm_Clock
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            if (alarmMode)
+            {
+                selectedTime = DateTime.Parse(cmbHour.Text + ":" + cmbMin.Text);
+            }
+            else
+            {
+                selectedTime = DateTime.Now.AddMinutes((int)nmrCounter.Value);
+            }
+
             setEnable(false);
-            selectedTime = DateTime.Parse(cmbHour.Text + ":" + cmbMin.Text);
             getSoundDuration(cmbSounds.SelectedIndex);
             timerRemaining.Start();
         }
@@ -92,6 +111,7 @@ namespace Alarm_Clock
             cmbHour.Enabled = b;
             cmbSounds.Enabled = b;
             btnStart.Enabled = b;
+            nmrCounter.Enabled = b;
         }
 
         #endregion
@@ -119,7 +139,7 @@ namespace Alarm_Clock
                 lblRemainingTime.Text = "Wake Up!";
                 playSound(cmbSounds.SelectedIndex);
                 timerPlaying.Interval = (soundDuration + 2) * 1000;
-                playingDate = DateTime.Now.AddMinutes(5);
+                playingDate = DateTime.Now.AddMinutes(AlarmDuration);
                 timerPlaying.Start();
             }
             else
@@ -142,6 +162,15 @@ namespace Alarm_Clock
         {
             lblNow.Text = DateTime.Now.ToLongTimeString();
             lblDay.Text = DateTime.Now.DayOfWeek.ToString();
+        }
+
+        private void settings_Click(object sender, EventArgs e)
+        {
+            settingsFrom settingsForm = new settingsFrom();
+            if (settingsForm.ShowDialog() == DialogResult.OK)
+            {
+                AlarmDuration = (int)settingsForm.nmrCounter.Value;
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
