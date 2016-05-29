@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
-            this.btnPause = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.timerRemaining = new System.Windows.Forms.Timer(this.components);
             this.lblRemainingTime = new System.Windows.Forms.Label();
             this.timerNow = new System.Windows.Forms.Timer(this.components);
@@ -57,6 +57,7 @@
             this.panelCounter = new System.Windows.Forms.Panel();
             this.nmrCounter = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
+            this.lblDay = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.panelAlarm.SuspendLayout();
@@ -102,7 +103,7 @@
             this.cmbSounds.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSounds.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbSounds.FormattingEnabled = true;
-            this.cmbSounds.Location = new System.Drawing.Point(25, 166);
+            this.cmbSounds.Location = new System.Drawing.Point(25, 173);
             this.cmbSounds.Name = "cmbSounds";
             this.cmbSounds.Size = new System.Drawing.Size(154, 23);
             this.cmbSounds.TabIndex = 2;
@@ -113,7 +114,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(74, 144);
+            this.label2.Location = new System.Drawing.Point(74, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 19);
             this.label2.TabIndex = 1;
@@ -132,7 +133,7 @@
             // btnStart
             // 
             this.btnStart.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnStart.Location = new System.Drawing.Point(25, 208);
+            this.btnStart.Location = new System.Drawing.Point(24, 202);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -140,15 +141,16 @@
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // btnPause
+            // btnCancel
             // 
-            this.btnPause.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnPause.Location = new System.Drawing.Point(104, 208);
-            this.btnPause.Name = "btnPause";
-            this.btnPause.Size = new System.Drawing.Size(75, 23);
-            this.btnPause.TabIndex = 1;
-            this.btnPause.Text = "Pause";
-            this.btnPause.UseVisualStyleBackColor = true;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCancel.Location = new System.Drawing.Point(103, 202);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 1;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // timerRemaining
             // 
@@ -159,20 +161,21 @@
             // 
             this.lblRemainingTime.AutoSize = true;
             this.lblRemainingTime.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblRemainingTime.Location = new System.Drawing.Point(22, 192);
+            this.lblRemainingTime.Location = new System.Drawing.Point(22, 229);
             this.lblRemainingTime.Name = "lblRemainingTime";
             this.lblRemainingTime.Size = new System.Drawing.Size(0, 13);
             this.lblRemainingTime.TabIndex = 1;
             // 
             // timerNow
             // 
+            this.timerNow.Interval = 250;
             this.timerNow.Tick += new System.EventHandler(this.timerNow_Tick);
             // 
             // lblNow
             // 
             this.lblNow.AutoSize = true;
             this.lblNow.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblNow.Location = new System.Drawing.Point(53, 52);
+            this.lblNow.Location = new System.Drawing.Point(31, 52);
             this.lblNow.Name = "lblNow";
             this.lblNow.Size = new System.Drawing.Size(94, 28);
             this.lblNow.TabIndex = 1;
@@ -277,7 +280,6 @@
             // openFD
             // 
             this.openFD.DefaultExt = "*.mp3";
-            this.openFD.FileName = "openFileDialog1";
             this.openFD.Filter = "MP3 Files|*.mp3";
             this.openFD.Multiselect = true;
             // 
@@ -287,7 +289,7 @@
             this.panelAlarm.Controls.Add(this.cmbHour);
             this.panelAlarm.Controls.Add(this.label1);
             this.panelAlarm.Controls.Add(this.label3);
-            this.panelAlarm.Location = new System.Drawing.Point(19, 83);
+            this.panelAlarm.Location = new System.Drawing.Point(19, 90);
             this.panelAlarm.Name = "panelAlarm";
             this.panelAlarm.Size = new System.Drawing.Size(171, 58);
             this.panelAlarm.TabIndex = 7;
@@ -297,7 +299,7 @@
             this.panelCounter.Controls.Add(this.nmrCounter);
             this.panelCounter.Controls.Add(this.label4);
             this.panelCounter.Enabled = false;
-            this.panelCounter.Location = new System.Drawing.Point(19, 83);
+            this.panelCounter.Location = new System.Drawing.Point(19, 90);
             this.panelCounter.Name = "panelCounter";
             this.panelCounter.Size = new System.Drawing.Size(171, 58);
             this.panelCounter.TabIndex = 8;
@@ -305,7 +307,7 @@
             // 
             // nmrCounter
             // 
-            this.nmrCounter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.nmrCounter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.nmrCounter.Location = new System.Drawing.Point(55, 27);
             this.nmrCounter.Name = "nmrCounter";
             this.nmrCounter.Size = new System.Drawing.Size(51, 23);
@@ -321,17 +323,28 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Minute";
             // 
+            // lblDay
+            // 
+            this.lblDay.AutoSize = true;
+            this.lblDay.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDay.Location = new System.Drawing.Point(125, 61);
+            this.lblDay.Name = "lblDay";
+            this.lblDay.Size = new System.Drawing.Size(65, 19);
+            this.lblDay.TabIndex = 1;
+            this.lblDay.Text = "00:00:00";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(211, 239);
+            this.ClientSize = new System.Drawing.Size(211, 262);
             this.Controls.Add(this.panelCounter);
             this.Controls.Add(this.panelAlarm);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.btnPause);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.cmbSounds);
+            this.Controls.Add(this.lblDay);
             this.Controls.Add(this.lblNow);
             this.Controls.Add(this.lblRemainingTime);
             this.Controls.Add(this.label2);
@@ -367,7 +380,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Button btnPause;
+        private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Timer timerRemaining;
         private System.Windows.Forms.Label lblRemainingTime;
         private System.Windows.Forms.Timer timerNow;
@@ -387,6 +400,7 @@
         private System.Windows.Forms.ToolStripButton toolCounter;
         private System.Windows.Forms.ToolStripButton toolAlarm;
         private System.Windows.Forms.ToolStripButton toolDeleteSound;
+        private System.Windows.Forms.Label lblDay;
     }
 }
 
