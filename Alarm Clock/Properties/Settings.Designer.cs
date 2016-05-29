@@ -22,5 +22,17 @@ namespace Alarm_Clock.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5")]
+        public int AlarmDuration {
+            get {
+                return ((int)(this["AlarmDuration"]));
+            }
+            set {
+                this["AlarmDuration"] = value;
+            }
+        }
     }
 }
