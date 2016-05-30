@@ -25,7 +25,7 @@ namespace Alarm_Clock
         // flag: for dont play sound on form_load 
         // if alarMode = false then counter mode on 
 
-        public int AlarmDuration
+        public int PlayDuration
         {
             get { return Properties.Settings.Default.AlarmDuration; }
             set
@@ -139,7 +139,7 @@ namespace Alarm_Clock
                 lblRemainingTime.Text = "Wake Up!";
                 playSound(cmbSounds.SelectedIndex);
                 timerPlaying.Interval = (soundDuration + 2) * 1000;
-                playingDate = DateTime.Now.AddMinutes(AlarmDuration);
+                playingDate = DateTime.Now.AddMinutes(PlayDuration);
                 timerPlaying.Start();
             }
             else
@@ -150,6 +150,7 @@ namespace Alarm_Clock
 
         private void timerPlaying_Tick(object sender, EventArgs e)
         {
+            sound.close();
             playingTime = playingDate - DateTime.Now;
 
             if (playingTime > TimeSpan.FromSeconds(1))
@@ -169,7 +170,7 @@ namespace Alarm_Clock
             settingsFrom settingsForm = new settingsFrom();
             if (settingsForm.ShowDialog() == DialogResult.OK)
             {
-                AlarmDuration = (int)settingsForm.nmrCounter.Value;
+                PlayDuration = (int)settingsForm.nmrCounter.Value;
             }
         }
 
@@ -196,7 +197,7 @@ namespace Alarm_Clock
                 cmbSounds.Enabled = false;
                 playSound(cmbSounds.SelectedIndex);
                 await Task.Delay(TimeSpan.FromSeconds(3));
-                sound.controls.stop();
+                sound.close();
                 cmbSounds.Enabled = true;
             }
         }
