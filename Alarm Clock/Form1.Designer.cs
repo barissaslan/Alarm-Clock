@@ -45,23 +45,23 @@
             this.timerPlaying = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuAddSound = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuDeleteSound = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.menuSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolAddSound = new System.Windows.Forms.ToolStripButton();
+            this.toolCounter = new System.Windows.Forms.ToolStripButton();
+            this.toolAlarm = new System.Windows.Forms.ToolStripButton();
+            this.toolDeleteSound = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolSettings = new System.Windows.Forms.ToolStripButton();
             this.openFD = new System.Windows.Forms.OpenFileDialog();
             this.panelAlarm = new System.Windows.Forms.Panel();
             this.panelCounter = new System.Windows.Forms.Panel();
             this.nmrCounter = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
             this.lblDay = new System.Windows.Forms.Label();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolAddSound = new System.Windows.Forms.ToolStripButton();
-            this.toolCounter = new System.Windows.Forms.ToolStripButton();
-            this.toolAlarm = new System.Windows.Forms.ToolStripButton();
-            this.toolDeleteSound = new System.Windows.Forms.ToolStripButton();
-            this.toolSettings = new System.Windows.Forms.ToolStripButton();
-            this.menuAddSound = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuDeleteSound = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.panelAlarm.SuspendLayout();
@@ -210,6 +210,35 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // menuAddSound
+            // 
+            this.menuAddSound.Image = global::Alarm_Clock.Properties.Resources.plus;
+            this.menuAddSound.Name = "menuAddSound";
+            this.menuAddSound.Size = new System.Drawing.Size(144, 22);
+            this.menuAddSound.Text = "Add Sound";
+            this.menuAddSound.Click += new System.EventHandler(this.addSound_Click);
+            // 
+            // menuDeleteSound
+            // 
+            this.menuDeleteSound.Image = global::Alarm_Clock.Properties.Resources.cancel;
+            this.menuDeleteSound.Name = "menuDeleteSound";
+            this.menuDeleteSound.Size = new System.Drawing.Size(144, 22);
+            this.menuDeleteSound.Text = "Delete Sound";
+            this.menuDeleteSound.Click += new System.EventHandler(this.deleteSound_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(141, 6);
+            // 
+            // menuSettings
+            // 
+            this.menuSettings.Image = global::Alarm_Clock.Properties.Resources.settings;
+            this.menuSettings.Name = "menuSettings";
+            this.menuSettings.Size = new System.Drawing.Size(144, 22);
+            this.menuSettings.Text = "Settings";
+            this.menuSettings.Click += new System.EventHandler(this.settings_Click);
+            // 
             // toolStrip1
             // 
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -224,6 +253,67 @@
             this.toolStrip1.Size = new System.Drawing.Size(211, 25);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolAddSound
+            // 
+            this.toolAddSound.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolAddSound.Image = global::Alarm_Clock.Properties.Resources.plus;
+            this.toolAddSound.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolAddSound.Name = "toolAddSound";
+            this.toolAddSound.Size = new System.Drawing.Size(23, 22);
+            this.toolAddSound.ToolTipText = "Add Sound";
+            this.toolAddSound.Click += new System.EventHandler(this.addSound_Click);
+            // 
+            // toolCounter
+            // 
+            this.toolCounter.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolCounter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolCounter.Image = global::Alarm_Clock.Properties.Resources.counter2;
+            this.toolCounter.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolCounter.Name = "toolCounter";
+            this.toolCounter.Size = new System.Drawing.Size(23, 22);
+            this.toolCounter.Text = "Counter";
+            this.toolCounter.ToolTipText = "Counter";
+            this.toolCounter.Click += new System.EventHandler(this.toolAlarmCounter_Click);
+            // 
+            // toolAlarm
+            // 
+            this.toolAlarm.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolAlarm.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolAlarm.Enabled = false;
+            this.toolAlarm.Image = global::Alarm_Clock.Properties.Resources.clock;
+            this.toolAlarm.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolAlarm.Name = "toolAlarm";
+            this.toolAlarm.Size = new System.Drawing.Size(23, 22);
+            this.toolAlarm.Text = "Alarm";
+            this.toolAlarm.ToolTipText = "Alarm";
+            this.toolAlarm.Click += new System.EventHandler(this.toolAlarmCounter_Click);
+            // 
+            // toolDeleteSound
+            // 
+            this.toolDeleteSound.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolDeleteSound.Image = global::Alarm_Clock.Properties.Resources.cancel;
+            this.toolDeleteSound.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolDeleteSound.Name = "toolDeleteSound";
+            this.toolDeleteSound.Size = new System.Drawing.Size(23, 22);
+            this.toolDeleteSound.Text = "toolStripButton1";
+            this.toolDeleteSound.ToolTipText = "Delete Sound";
+            this.toolDeleteSound.Click += new System.EventHandler(this.deleteSound_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolSettings
+            // 
+            this.toolSettings.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolSettings.Image = global::Alarm_Clock.Properties.Resources.settings;
+            this.toolSettings.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolSettings.Name = "toolSettings";
+            this.toolSettings.Size = new System.Drawing.Size(23, 22);
+            this.toolSettings.Text = "Settings";
+            this.toolSettings.Click += new System.EventHandler(this.settings_Click);
             // 
             // openFD
             // 
@@ -280,96 +370,6 @@
             this.lblDay.Size = new System.Drawing.Size(65, 19);
             this.lblDay.TabIndex = 1;
             this.lblDay.Text = "00:00:00";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolAddSound
-            // 
-            this.toolAddSound.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolAddSound.Image = global::Alarm_Clock.Properties.Resources.plus;
-            this.toolAddSound.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolAddSound.Name = "toolAddSound";
-            this.toolAddSound.Size = new System.Drawing.Size(23, 22);
-            this.toolAddSound.ToolTipText = "Add Sound";
-            this.toolAddSound.Click += new System.EventHandler(this.addSound_Click);
-            // 
-            // toolCounter
-            // 
-            this.toolCounter.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolCounter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolCounter.Image = global::Alarm_Clock.Properties.Resources.counter2;
-            this.toolCounter.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolCounter.Name = "toolCounter";
-            this.toolCounter.Size = new System.Drawing.Size(23, 22);
-            this.toolCounter.Text = "Counter";
-            this.toolCounter.ToolTipText = "Counter";
-            this.toolCounter.Click += new System.EventHandler(this.toolAlarmCounter_Click);
-            // 
-            // toolAlarm
-            // 
-            this.toolAlarm.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
-            this.toolAlarm.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolAlarm.Enabled = false;
-            this.toolAlarm.Image = global::Alarm_Clock.Properties.Resources.clock;
-            this.toolAlarm.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolAlarm.Name = "toolAlarm";
-            this.toolAlarm.Size = new System.Drawing.Size(23, 22);
-            this.toolAlarm.Text = "Alarm";
-            this.toolAlarm.ToolTipText = "Alarm";
-            this.toolAlarm.Click += new System.EventHandler(this.toolAlarmCounter_Click);
-            // 
-            // toolDeleteSound
-            // 
-            this.toolDeleteSound.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolDeleteSound.Image = global::Alarm_Clock.Properties.Resources.cancel;
-            this.toolDeleteSound.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolDeleteSound.Name = "toolDeleteSound";
-            this.toolDeleteSound.Size = new System.Drawing.Size(23, 22);
-            this.toolDeleteSound.Text = "toolStripButton1";
-            this.toolDeleteSound.ToolTipText = "Delete Sound";
-            this.toolDeleteSound.Click += new System.EventHandler(this.deleteSound_Click);
-            // 
-            // toolSettings
-            // 
-            this.toolSettings.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolSettings.Image = global::Alarm_Clock.Properties.Resources.settings;
-            this.toolSettings.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolSettings.Name = "toolSettings";
-            this.toolSettings.Size = new System.Drawing.Size(23, 22);
-            this.toolSettings.Text = "toolStripButton1";
-            this.toolSettings.Click += new System.EventHandler(this.settings_Click);
-            // 
-            // menuAddSound
-            // 
-            this.menuAddSound.Image = global::Alarm_Clock.Properties.Resources.plus;
-            this.menuAddSound.Name = "menuAddSound";
-            this.menuAddSound.Size = new System.Drawing.Size(152, 22);
-            this.menuAddSound.Text = "Add Sound";
-            this.menuAddSound.Click += new System.EventHandler(this.addSound_Click);
-            // 
-            // menuDeleteSound
-            // 
-            this.menuDeleteSound.Image = global::Alarm_Clock.Properties.Resources.cancel;
-            this.menuDeleteSound.Name = "menuDeleteSound";
-            this.menuDeleteSound.Size = new System.Drawing.Size(152, 22);
-            this.menuDeleteSound.Text = "Delete Sound";
-            this.menuDeleteSound.Click += new System.EventHandler(this.deleteSound_Click);
-            // 
-            // menuSettings
-            // 
-            this.menuSettings.Image = global::Alarm_Clock.Properties.Resources.settings;
-            this.menuSettings.Name = "menuSettings";
-            this.menuSettings.Size = new System.Drawing.Size(152, 22);
-            this.menuSettings.Text = "Settings";
-            this.menuSettings.Click += new System.EventHandler(this.settings_Click);
             // 
             // Form1
             // 
