@@ -261,6 +261,7 @@
             this.toolAddSound.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolAddSound.Name = "toolAddSound";
             this.toolAddSound.Size = new System.Drawing.Size(23, 22);
+            this.toolAddSound.Text = "Add Sound";
             this.toolAddSound.ToolTipText = "Add Sound";
             this.toolAddSound.Click += new System.EventHandler(this.addSound_Click);
             // 
@@ -296,7 +297,7 @@
             this.toolDeleteSound.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolDeleteSound.Name = "toolDeleteSound";
             this.toolDeleteSound.Size = new System.Drawing.Size(23, 22);
-            this.toolDeleteSound.Text = "toolStripButton1";
+            this.toolDeleteSound.Text = "Delete Sound";
             this.toolDeleteSound.ToolTipText = "Delete Sound";
             this.toolDeleteSound.Click += new System.EventHandler(this.deleteSound_Click);
             // 
