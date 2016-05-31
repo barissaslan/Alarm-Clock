@@ -107,7 +107,7 @@
             this.cmbSounds.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSounds.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbSounds.FormattingEnabled = true;
-            this.cmbSounds.Location = new System.Drawing.Point(25, 173);
+            this.cmbSounds.Location = new System.Drawing.Point(28, 173);
             this.cmbSounds.Name = "cmbSounds";
             this.cmbSounds.Size = new System.Drawing.Size(154, 23);
             this.cmbSounds.TabIndex = 2;
@@ -118,7 +118,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(74, 151);
+            this.label2.Location = new System.Drawing.Point(77, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 19);
             this.label2.TabIndex = 1;
@@ -137,7 +137,7 @@
             // btnStart
             // 
             this.btnStart.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnStart.Location = new System.Drawing.Point(24, 202);
+            this.btnStart.Location = new System.Drawing.Point(27, 202);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -148,7 +148,7 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCancel.Location = new System.Drawing.Point(103, 202);
+            this.btnCancel.Location = new System.Drawing.Point(106, 202);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
@@ -165,7 +165,7 @@
             // 
             this.lblRemainingTime.AutoSize = true;
             this.lblRemainingTime.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblRemainingTime.Location = new System.Drawing.Point(22, 229);
+            this.lblRemainingTime.Location = new System.Drawing.Point(25, 231);
             this.lblRemainingTime.Name = "lblRemainingTime";
             this.lblRemainingTime.Size = new System.Drawing.Size(0, 13);
             this.lblRemainingTime.TabIndex = 1;
@@ -195,7 +195,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(211, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(209, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -250,7 +250,7 @@
             this.toolSettings});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(211, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(209, 25);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -347,7 +347,7 @@
             // nmrCounter
             // 
             this.nmrCounter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.nmrCounter.Location = new System.Drawing.Point(55, 27);
+            this.nmrCounter.Location = new System.Drawing.Point(59, 27);
             this.nmrCounter.Name = "nmrCounter";
             this.nmrCounter.Size = new System.Drawing.Size(51, 23);
             this.nmrCounter.TabIndex = 9;
@@ -356,7 +356,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(51, 5);
+            this.label4.Location = new System.Drawing.Point(55, 5);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 19);
             this.label4.TabIndex = 1;
@@ -377,7 +377,7 @@
             this.AcceptButton = this.btnStart;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(211, 262);
+            this.ClientSize = new System.Drawing.Size(209, 253);
             this.Controls.Add(this.panelCounter);
             this.Controls.Add(this.panelAlarm);
             this.Controls.Add(this.toolStrip1);
