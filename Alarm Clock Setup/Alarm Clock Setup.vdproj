@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup1"
+"ProjectName" = "8:Alarm Clock Setup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -15,86 +15,86 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_166ED037E23347B2801BFD9C1CA7E8DE"
+        "MsmKey" = "8:_1D5C04FEBAAF4FEDA215537A047CD1C1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_407C1D397A24416BBF09FA5456EABA6C"
+        "MsmKey" = "8:_35A5DFC270FDBB18A33A5F01DA2E28D4"
+        "OwnerKey" = "8:_D46B0003FD574FADB466F3B74DA8E21A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C8F2FF3EB3542382A94248E58C658F3"
+        "OwnerKey" = "8:_D46B0003FD574FADB466F3B74DA8E21A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_89744461F49B4C1E8D1CDC8C4837BD00"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4B6F4FF1F4584BECB85CE0FE7958A7D3"
+        "MsmKey" = "8:_99D724F83BBA45FCA44D1CFB70B4CD1D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_4E383C5F4B8D47E9892E16ED74ACD8A8"
+        "MsmKey" = "8:_9CF7791079CC40209F26A0AFC4120A8B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5AB7419B389E4AF4BDB6752C8BF30571"
+        "MsmKey" = "8:_C52426C0D65F4AAC95AAB96315BF6D40"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6F9BFC8294C38EE39729374AF1D6DFBC"
-        "OwnerKey" = "8:_407C1D397A24416BBF09FA5456EABA6C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8B32321036454A8B840367F850C60C4C"
+        "MsmKey" = "8:_D0AD6AD7D0BA47FA9BFCA5914C378A91"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_CA55C36B680C4C1C8435229B5B883230"
+        "MsmKey" = "8:_D2D0E878C8544C6C8A97664E5BD349AC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D035F2AF408C411F868F26D8250B2A2B"
+        "MsmKey" = "8:_D46B0003FD574FADB466F3B74DA8E21A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E5D0B43C58C94BDD9593F3E43DA70D21"
+        "MsmKey" = "8:_FA7C6276F1A24BEFA63C218038E611DD"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EC62807FD3D8D0C542EC089EBE5B7D5F"
-        "OwnerKey" = "8:_407C1D397A24416BBF09FA5456EABA6C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_407C1D397A24416BBF09FA5456EABA6C"
+        "OwnerKey" = "8:_3C8F2FF3EB3542382A94248E58C658F3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EC62807FD3D8D0C542EC089EBE5B7D5F"
+        "OwnerKey" = "8:_35A5DFC270FDBB18A33A5F01DA2E28D4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6F9BFC8294C38EE39729374AF1D6DFBC"
+        "OwnerKey" = "8:_D46B0003FD574FADB466F3B74DA8E21A"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -105,7 +105,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\Setup1.msi"
+        "OutputFilename" = "8:Debug\\Alarm Clock Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -122,14 +122,6 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.5"
-                    }
-                }
             }
         }
         "Release"
@@ -137,7 +129,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\Setup1.msi"
+        "OutputFilename" = "8:Release\\Alarm Clock Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -154,14 +146,6 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.5"
-                    }
-                }
             }
         }
     }
@@ -180,7 +164,7 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_08E926FCE04D49549CB99C7655126130"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_E796F77433B7484886F7ADC0F2BF4DAA"
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
@@ -192,72 +176,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_166ED037E23347B2801BFD9C1CA7E8DE"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Sounds\\Alarm Sound2.mp3"
-            "TargetName" = "8:Alarm Sound2.mp3"
-            "Tag" = "8:"
-            "Folder" = "8:_ED2B5252773E4B8BA073E6BFB6D91651"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4B6F4FF1F4584BECB85CE0FE7958A7D3"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\clock.png"
-            "TargetName" = "8:clock.png"
-            "Tag" = "8:"
-            "Folder" = "8:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4E383C5F4B8D47E9892E16ED74ACD8A8"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\plus.png"
-            "TargetName" = "8:plus.png"
-            "Tag" = "8:"
-            "Folder" = "8:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5AB7419B389E4AF4BDB6752C8BF30571"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1D5C04FEBAAF4FEDA215537A047CD1C1"
             {
             "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\cancel.png"
             "TargetName" = "8:cancel.png"
             "Tag" = "8:"
-            "Folder" = "8:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
+            "Folder" = "8:_8554BBCA689D41A293E355B131510EF9"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -272,134 +196,18 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6F9BFC8294C38EE39729374AF1D6DFBC"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_6F9BFC8294C38EE39729374AF1D6DFBC"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_1E4E7B7C315644769D22E7D89C1AFD37"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8B32321036454A8B840367F850C60C4C"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\clock.ico"
-            "TargetName" = "8:clock.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CA55C36B680C4C1C8435229B5B883230"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\settings.ico"
-            "TargetName" = "8:settings.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D035F2AF408C411F868F26D8250B2A2B"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Sounds\\Alarm Sound1.mp3"
-            "TargetName" = "8:Alarm Sound1.mp3"
-            "Tag" = "8:"
-            "Folder" = "8:_ED2B5252773E4B8BA073E6BFB6D91651"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E5D0B43C58C94BDD9593F3E43DA70D21"
-            {
-            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\counter2.png"
-            "TargetName" = "8:counter2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EC62807FD3D8D0C542EC089EBE5B7D5F"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_35A5DFC270FDBB18A33A5F01DA2E28D4"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:NAudio, Version=1.7.3.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_EC62807FD3D8D0C542EC089EBE5B7D5F"
-                    {
-                    "Name" = "8:NAudio.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:NAudio.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_1E4E7B7C315644769D22E7D89C1AFD37"
+            "Folder" = "8:_F4D899FFB8D14569B78580A8710A2C97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -412,6 +220,172 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C8F2FF3EB3542382A94248E58C658F3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F4D899FFB8D14569B78580A8710A2C97"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_89744461F49B4C1E8D1CDC8C4837BD00"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\clock.png"
+            "TargetName" = "8:clock.png"
+            "Tag" = "8:"
+            "Folder" = "8:_8554BBCA689D41A293E355B131510EF9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_99D724F83BBA45FCA44D1CFB70B4CD1D"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Sounds\\Alarm Sound2.mp3"
+            "TargetName" = "8:Alarm Sound2.mp3"
+            "Tag" = "8:"
+            "Folder" = "8:_A91C06C1CE624CB0BEDAF96CCCF648A0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9CF7791079CC40209F26A0AFC4120A8B"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\plus.png"
+            "TargetName" = "8:plus.png"
+            "Tag" = "8:"
+            "Folder" = "8:_8554BBCA689D41A293E355B131510EF9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C52426C0D65F4AAC95AAB96315BF6D40"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Sounds\\Alarm Sound1.mp3"
+            "TargetName" = "8:Alarm Sound1.mp3"
+            "Tag" = "8:"
+            "Folder" = "8:_A91C06C1CE624CB0BEDAF96CCCF648A0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D0AD6AD7D0BA47FA9BFCA5914C378A91"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\clock.ico"
+            "TargetName" = "8:clock.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8554BBCA689D41A293E355B131510EF9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D2D0E878C8544C6C8A97664E5BD349AC"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\counter2.png"
+            "TargetName" = "8:counter2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_8554BBCA689D41A293E355B131510EF9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FA7C6276F1A24BEFA63C218038E611DD"
+            {
+            "SourcePath" = "8:..\\Alarm Clock\\bin\\Debug\\Icons\\settings.ico"
+            "TargetName" = "8:settings.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8554BBCA689D41A293E355B131510EF9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -420,44 +394,10 @@
         }
         "Folder"
         {
-            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_1E4E7B7C315644769D22E7D89C1AFD37"
-            {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
-            "Name" = "8:#1925"
-            "AlwaysCreate" = "11:TRUE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:TARGETDIR"
-                "Folders"
-                {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_BEF0B0E388CC42BDAB10DFE99FE4ADA5"
-                    {
-                    "Name" = "8:Icons"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_AEB2773BEDC941358B15876C61369648"
-                        "Folders"
-                        {
-                        }
-                    }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_ED2B5252773E4B8BA073E6BFB6D91651"
-                    {
-                    "Name" = "8:Sounds"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_F2FA128134D34B52B9EE2303E9DA988B"
-                        "Folders"
-                        {
-                        }
-                    }
-                }
-            }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_9DDF4D7A59E249269299FE3EEE061981"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_40E623C9141D4289A0EE5ED56EE030B7"
             {
             "Name" = "8:#1919"
-            "AlwaysCreate" = "11:TRUE"
+            "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:ProgramMenuFolder"
@@ -465,15 +405,49 @@
                 {
                 }
             }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_B0065A49BCBA44E6A766498860F3EAB2"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_BAA197166CAF443E9A233D6EF03C3CA6"
             {
             "Name" = "8:#1916"
-            "AlwaysCreate" = "11:TRUE"
+            "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:DesktopFolder"
                 "Folders"
                 {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_F4D899FFB8D14569B78580A8710A2C97"
+            {
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_8554BBCA689D41A293E355B131510EF9"
+                    {
+                    "Name" = "8:Icons"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_B546434C7ABA47958A115977C50F5206"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A91C06C1CE624CB0BEDAF96CCCF648A0"
+                    {
+                    "Name" = "8:Sounds"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_B96E07FAF2804C31B86F215F13475183"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -492,9 +466,9 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Alarm Clock"
-        "ProductCode" = "8:{E6BB6B46-F6DB-410E-B72C-B8C9278F6B28}"
-        "PackageCode" = "8:{A4B2C1B5-7743-4184-9B41-859A27AFA8BB}"
-        "UpgradeCode" = "8:{F861F8B5-91E2-4620-9FC9-B618314638C3}"
+        "ProductCode" = "8:{9C1D8D2B-BA52-4632-81CD-B4CE3F036D0C}"
+        "PackageCode" = "8:{6C97A499-C265-46A5-99FC-348A9ADA9BBC}"
+        "UpgradeCode" = "8:{C4A70DD6-630B-4C1B-9DA7-63B23ED5BD76}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
@@ -504,7 +478,7 @@
         "Manufacturer" = "8:Aslan Software"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup1"
+        "Title" = "8:Alarm Clock Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Barış Aslan"
         "Keywords" = "8:"
@@ -525,7 +499,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_7E8FF14FBC454BFB88E4FAFCC0F2DA35"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C33B87D6E2334D858878D4084AB0536A"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -534,7 +508,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_DB0B98B3CF314917B9C1EF4BB639B632"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_BEA396CE65224F13A756878C4719D3F8"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -559,7 +533,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_886E393A02994FEDA69B0FB75D62628A"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C5303603FECA48B5A3A6D9C2E1D5F7E1"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -568,7 +542,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_48DD55C6F8024E199821E49D9819C918"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_26507CCC331C4981A1B7779349584915"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -613,7 +587,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0945EA1E265C4BD29C8655D82C0075B6"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5D7B185CBD6443439F65AF080A94DBED"
             {
             "Name" = "8:Alarm Clock"
             "Arguments" = "8:"
@@ -621,13 +595,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_407C1D397A24416BBF09FA5456EABA6C"
-            "Folder" = "8:_B0065A49BCBA44E6A766498860F3EAB2"
-            "WorkingFolder" = "8:_1E4E7B7C315644769D22E7D89C1AFD37"
-            "Icon" = "8:_8B32321036454A8B840367F850C60C4C"
+            "Target" = "8:_D46B0003FD574FADB466F3B74DA8E21A"
+            "Folder" = "8:_40E623C9141D4289A0EE5ED56EE030B7"
+            "WorkingFolder" = "8:_F4D899FFB8D14569B78580A8710A2C97"
+            "Icon" = "8:_D0AD6AD7D0BA47FA9BFCA5914C378A91"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E1B4BF1F53354D94970D38BB34FBB887"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FF4156DF686F474DA9182514A4F49EAD"
             {
             "Name" = "8:Alarm Clock"
             "Arguments" = "8:"
@@ -635,159 +609,29 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_407C1D397A24416BBF09FA5456EABA6C"
-            "Folder" = "8:_9DDF4D7A59E249269299FE3EEE061981"
-            "WorkingFolder" = "8:_1E4E7B7C315644769D22E7D89C1AFD37"
-            "Icon" = "8:_8B32321036454A8B840367F850C60C4C"
+            "Target" = "8:_D46B0003FD574FADB466F3B74DA8E21A"
+            "Folder" = "8:_BAA197166CAF443E9A233D6EF03C3CA6"
+            "WorkingFolder" = "8:_F4D899FFB8D14569B78580A8710A2C97"
+            "Icon" = "8:_D0AD6AD7D0BA47FA9BFCA5914C378A91"
             "Feature" = "8:"
             }
         }
         "UserInterface"
         {
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_191C32E1B39E4D13B3E25217F3B37A5B"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_391DDF19CC96429F8D5962202D3FEF26"
             {
-            "Name" = "8:#1900"
-            "Sequence" = "3:1"
-            "Attributes" = "3:1"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2871BB3316AE4A19BC4513FF15600876"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9E838A969B9344F2BFC670D56F8FFDE5"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "InstallAllUsersVisible"
-                            {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_BFF69127D9B1481D9130FEE9175ABAF0"
-                    {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Welcome"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "CopyrightWarning"
-                            {
-                            "Name" = "8:CopyrightWarning"
-                            "DisplayName" = "8:#1002"
-                            "Description" = "8:#1102"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
-                            "DefaultValue" = "8:#1202"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "Welcome"
-                            {
-                            "Name" = "8:Welcome"
-                            "DisplayName" = "8:#1003"
-                            "Description" = "8:#1103"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
-                            "DefaultValue" = "8:#1203"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                }
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_3913370455374A109969BFDFCBA2981F"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_464A290509EF45C99D9C35741FEE6109"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:2"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5DC8B4C91C784E78AFDFB0E299FD4073"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:Installation Folder"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_870C30A69FC240A9BE71E9F63ECFAE89"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A063108881FD4DBC9D3468DEAC7703C8"
                     {
                     "Sequence" = "3:300"
                     "DisplayName" = "8:Confirm Installation"
@@ -809,7 +653,7 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9220CEBB97E347719BAEACFA84EB6AC9"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B1BD6955389C4CAE8EE14A244BBB85A5"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
@@ -857,28 +701,13 @@
                             }
                         }
                     }
-                }
-            }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_54915268D3AF486EACE384BB0F5D2637"
-            {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_6250BCF3E26945D08C28D38F3B8D2FCD"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:2"
-            "Attributes" = "3:3"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_F358A6BB0A364645B6034ABB14071B88"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_DD2EC7AB7A01471C9754D41C2B23234E"
                     {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Finished"
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -896,20 +725,20 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9B85FF1CA4F54EBFAACD3832676C5473"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_87E56FD2F39048E2AEBDC7C3721DEA69"
             {
-            "Name" = "8:#1901"
+            "Name" = "8:#1900"
             "Sequence" = "3:1"
-            "Attributes" = "3:2"
+            "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_00DF81DA18394DCDBCFA5A4AEFD1668B"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_1C9044007E4F4B47AA527F5B527A209B"
                     {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:Progress"
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -923,11 +752,11 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
-                            "ShowProgress"
+                            "InstallAllUsersVisible"
                             {
-                            "Name" = "8:ShowProgress"
-                            "DisplayName" = "8:#1009"
-                            "Description" = "8:#1109"
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
                             "Type" = "3:5"
                             "ContextData" = "8:1;True=1;False=0"
                             "Attributes" = "3:0"
@@ -938,16 +767,86 @@
                             }
                         }
                     }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B958791CE5074AF6B98CEBBE199DB2F1"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_D1D0F8FC05954D4D9842DA0D5D9CFEAE"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_BD8FABC1ADA84B03871AF6F389A84D7F"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9A5814B9896448D3A1BAF06642749108"
             {
             "Name" = "8:#1902"
             "Sequence" = "3:1"
             "Attributes" = "3:3"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_46451B29EBF1426A9C92C027CACE0FCA"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_051A8A41241E43EA86E10120DD60D581"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Finished"
@@ -984,20 +883,64 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_E7AA5FD30E4A432196DAE96264798384"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_B1546046CCB74834BD8EB9F4A0B94A13"
             {
             "UseDynamicProperties" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_FFEED2E8C73245FC80708ED32E4288B6"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_C408604A73C740B594FED96941871E13"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9635E07BBD114FC4B13F33FF6196E916"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_D026D7A747E64DDB83001A3783CDE45D"
             {
             "Name" = "8:#1901"
             "Sequence" = "3:2"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4B21D089932F4F1E8167E70AADE8BF9A"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_441DE3F234EF4CCC9D04A0D487C37F69"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Progress"
@@ -1034,18 +977,49 @@
                     }
                 }
             }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_F9BB25B95F0946C586A7A47DC699DB79"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8ACA63AD7C4B4F17A7A7D96E4BA8999E"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
         }
         "MergeModule"
         {
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_407C1D397A24416BBF09FA5456EABA6C"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D46B0003FD574FADB466F3B74DA8E21A"
             {
             "SourcePath" = "8:..\\Alarm Clock\\obj\\Debug\\Alarm Clock.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_1E4E7B7C315644769D22E7D89C1AFD37"
+            "Folder" = "8:_F4D899FFB8D14569B78580A8710A2C97"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"

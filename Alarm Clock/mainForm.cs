@@ -7,25 +7,37 @@ using WMPLib;
 
 namespace Alarm_Clock
 {
-    public partial class Form1 : Form
+    public partial class mainForm : Form
     {
-        public Form1()
+        public mainForm()
         {
             InitializeComponent();
         }
 
         DateTime selectedTime, playingDate;
         TimeSpan remainingTime, playingTime;
-        string[] soundsPath = new string[100];
-        string[] soundNames = new string[100];
-        string soundDirectory, localPath;
+        string[] sourceSoundFiles = new string[50];
+        string[] soundFiles = new string[50];
+        string[] soundNames = new string[50];
         WindowsMediaPlayer sound;
         int soundDuration; // second
         bool flag, alarmMode = true, haveSound = true;
         // flag: for dont play sound on form_load 
         // if alarMode = false then counter mode on 
 
-        public int PlayDuration
+        private string SourceDirectory
+        {
+            get { return Environment.CurrentDirectory + @"\Sounds"; }
+        }
+        private string DocumentPath
+        {
+            get { return Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments); }
+        }
+        private string SoundDirectory
+        {
+            get { return DocumentPath + @"\Alarm Clock\Sounds"; }
+        }
+        private int PlayDuration
         {
             get { return Properties.Settings.Default.AlarmDuration; }
             set
@@ -39,12 +51,16 @@ namespace Alarm_Clock
         private void Form1_Load(object sender, EventArgs e)
         {
             timerNow.Start();
-            localPath = Environment.CurrentDirectory;
-            soundDirectory = Environment.CurrentDirectory + @"\Sounds";
 
-            if (!Directory.Exists(soundDirectory))
+            if (!Directory.Exists(SoundDirectory))
             {
-                Directory.CreateDirectory(soundDirectory);
+                Directory.CreateDirectory(SoundDirectory);
+                sourceSoundFiles = Directory.GetFiles(SourceDirectory, "*.mp3");
+                foreach (string soundPath in sourceSoundFiles)
+                {
+                    string soundName = Path.GetFileName(soundPath);
+                    File.Copy(soundPath, Path.Combine(SoundDirectory, soundName));
+                }
             }
 
             updateItems();
@@ -52,9 +68,9 @@ namespace Alarm_Clock
 
         private void updateItems()
         {
-            soundsPath = Directory.GetFiles(soundDirectory, "*.mp3");
+            soundFiles = Directory.GetFiles(SoundDirectory, "*.mp3");
 
-            if (soundsPath.Length == 0)
+            if (soundFiles.Length == 0)
             {
                 MessageBox.Show("There was no MP3 file! Please add MP3 files from menu.", "Not Found Sound Files", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 haveSound = false;
@@ -75,9 +91,9 @@ namespace Alarm_Clock
                 cmbHour.Items.Add(i.ToString("00"));
             }
 
-            for (int i = 0; i < soundsPath.Length; i++)
+            for (int i = 0; i < soundFiles.Length; i++)
             {
-                soundNames[i] = Path.GetFileNameWithoutExtension(soundsPath[i]);
+                soundNames[i] = Path.GetFileNameWithoutExtension(soundFiles[i]);
                 cmbSounds.Items.Add(soundNames[i]);
             }
             #endregion
@@ -119,7 +135,7 @@ namespace Alarm_Clock
 
         private void getSoundDuration(int soundIndex)
         {
-            Mp3FileReader reader = new Mp3FileReader(soundsPath[soundIndex]);
+            Mp3FileReader reader = new Mp3FileReader(soundFiles[soundIndex]);
             soundDuration = (int)reader.TotalTime.TotalSeconds;
         }
 
@@ -186,7 +202,7 @@ namespace Alarm_Clock
         private void playSound(int soundIndex)
         {
             sound = new WindowsMediaPlayer();
-            sound.URL = soundsPath[soundIndex];
+            sound.URL = soundFiles[soundIndex];
             sound.controls.play();
         }
 
@@ -221,7 +237,7 @@ namespace Alarm_Clock
             {
                 foreach (string item in openFD.FileNames)
                 {
-                    File.Copy(item, Path.Combine(soundDirectory, Path.GetFileName(item)), true);
+                    File.Copy(item, Path.Combine(SoundDirectory, Path.GetFileName(item)), true);
                 }
                 updateItems();
             }
@@ -229,7 +245,7 @@ namespace Alarm_Clock
 
         private void deleteSound_Click(object sender, EventArgs e)
         {
-            openFD.InitialDirectory = soundDirectory;
+            openFD.InitialDirectory = SoundDirectory;
             openFD.Title = "Remove";
             if (openFD.ShowDialog() == DialogResult.OK)
             {

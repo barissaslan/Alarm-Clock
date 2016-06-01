@@ -1,6 +1,6 @@
 ﻿namespace Alarm_Clock
 {
-    partial class Form1
+    partial class mainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainForm));
             this.cmbMin = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbHour = new System.Windows.Forms.ComboBox();
@@ -107,7 +107,7 @@
             this.cmbSounds.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSounds.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbSounds.FormattingEnabled = true;
-            this.cmbSounds.Location = new System.Drawing.Point(28, 173);
+            this.cmbSounds.Location = new System.Drawing.Point(26, 173);
             this.cmbSounds.Name = "cmbSounds";
             this.cmbSounds.Size = new System.Drawing.Size(154, 23);
             this.cmbSounds.TabIndex = 2;
@@ -137,7 +137,7 @@
             // btnStart
             // 
             this.btnStart.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnStart.Location = new System.Drawing.Point(27, 202);
+            this.btnStart.Location = new System.Drawing.Point(25, 202);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -148,7 +148,7 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCancel.Location = new System.Drawing.Point(106, 202);
+            this.btnCancel.Location = new System.Drawing.Point(104, 202);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 1;
@@ -372,7 +372,7 @@
             this.lblDay.TabIndex = 1;
             this.lblDay.Text = "00:00:00";
             // 
-            // Form1
+            // mainForm
             // 
             this.AcceptButton = this.btnStart;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -393,7 +393,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alarm Clock";
             this.Load += new System.EventHandler(this.Form1_Load);
